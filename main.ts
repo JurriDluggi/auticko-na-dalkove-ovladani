@@ -10,5 +10,5 @@ let yValue = 0
 let xValue = 0
 radio.setGroup(1)
 basic.forever(function () {
-    cuteBot.motors(yValue + xValue, yValue - xValue)
+    wuKong.setMotorSpeed(wuKong.MotorList.M1, yValue)
 })
